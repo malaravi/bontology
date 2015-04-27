@@ -845,8 +845,8 @@ h5{padding:10px;}
 .btn_space{border-radius: 0; float: right; height: 29px; margin-top: -30px;padding:2px 12px;}
 .search_group {  padding:10px 0px 0px 0px; font-size:16px;}
 .results {margin-bottom:20px; background-color:#F0F0F0; padding:10px;}
-.team_image{overflow: hidden; padding: 0px 15px}
-.team-info{background: none repeat scroll 0 0 #F5F5F5; overflow: hidden; padding: 10px 0px 10px 0px; display:inline-block;}
+.team_image{overflow: hidden; padding: 0px 0px}
+.team-info{background: none repeat scroll 0 0 #F5F5F5; width: 227px; overflow: auto; padding: 10px 0px 10px 0px; display:inline-block;}
 .our_office{ overflow:hidden;}
 .social_icons{margin:0px; padding:0px;}
 .social_icons li { display:inline-block;list-style: none outside none; margin-bottom: 5px; margin-right: 5px; }
