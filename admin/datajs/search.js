@@ -56,6 +56,8 @@ $("#submit").click(function(e){
 				res += content;
 			}
 			$("#result").html(res);
+				 $("#submit").attr("disabled", false);
 		}
 	 });
+
 });
