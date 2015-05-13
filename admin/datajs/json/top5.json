@@ -1,2 +1,2 @@
 
-topclients = '[{"name":"Allstate Insurance","sale":"9505.65"},{"name":"Chevron","sale":"3209.70"},{"name":"Citibank","sale":"2592.45"},{"name":"Coca-Cola","sale":"2469.00"},{"name":"Electronic Arts","sale":"2469.00"}]';
+topclients = '[{"CompanyName":"Walmart","DealValue":"1854902.00","PhoneNumber":"(479)-273-6463"},{"CompanyName":"Coca-Cola","DealValue":"719043.00","PhoneNumber":"(206)-439-6395"},{"CompanyName":"Volkswagen Group","DealValue":"385229.00","PhoneNumber":"(248)-754-5000"},{"CompanyName":"Allstate Insurance","DealValue":"313648.00","PhoneNumber":"(847)-402-5000"},{"CompanyName":"Louis Vuitton","DealValue":"223458.00","PhoneNumber":"(212)-758-8877"}]';

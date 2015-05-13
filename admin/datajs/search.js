@@ -21,7 +21,10 @@ $("#submit").click(function(e){
                             "<span class='timeline-icon red'>"+
                             "<i class='fa fa-check-square-o'></i>"+
 							"</span><h1>";
-					content+= results[i].DealDate;
+					var d = new Date(results[i].DealDate);
+					d = d.toDateString();
+					var date = d.substr(4, d.length-4);
+					content+= date;
 					content+= "</h1><p><strong>Deal Title:</strong> ";
 					content+= results[i].DealTitle;
 					content+= "</p><p><strong>Associate:</strong> ";
@@ -41,7 +44,10 @@ $("#submit").click(function(e){
                     "<span class='timeline-icon red'>"+
                     "<i class='fa fa-check-square-o'></i>"+
 					"</span><h1>";
-					content+= results[i].DealDate;
+					var d = new Date(results[i].DealDate);
+					d = d.toDateString();
+					var date = d.substr(4, d.length-4);
+					content+= date;
 					content+= "</h1><p><strong>Deal Title:</strong> ";
 					content+= results[i].DealTitle;
 					content+= "</p><p><strong>Associate:</strong> ";

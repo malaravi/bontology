@@ -7,10 +7,10 @@ function updateData() {
 	var sum = 0;
 	var percent = [];
 	for (q=0; q<5; q++) {
-		sum += Number(top[q].sale);
+		sum += Number(top[q].DealValue);
 	}
 	for (w = 0; w < 5; w++) {
-		percent[w] = Number(top[w].sale) / sum;
+		percent[w] = Number(top[w].DealValue) / sum;
 	}
 	for (i = 0; i < 5; i++) {
 		var t = top[i];
@@ -20,9 +20,9 @@ function updateData() {
 			tds[j] = document.createElement("td");
 			tr.appendChild(tds[j]);
 		}
-		tds[0].appendChild(document.createTextNode(t.name));
-		tds[2].appendChild(document.createTextNode(t.sale));
-		tds[1].appendChild(document.createTextNode("xxx-xxx-xxxx"));
+		tds[0].appendChild(document.createTextNode(t.CompanyName));
+		tds[2].appendChild(document.createTextNode(t.DealValue));
+		tds[1].appendChild(document.createTextNode(t.PhoneNumber));
 		var pbar1 = document.createElement("div");
 		var att1 = document.createAttribute("class");
 		att1.value = "progress progress-striped active";
