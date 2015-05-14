@@ -1,8 +1,8 @@
 function updateData() {
-	var stats = JSON.parse(stats1125);
-	document.getElementById("sales").innerHTML = stats[0].dealvalue;
-	document.getElementById("dealcount").innerHTML = stats[0].dealcount;
-	document.getElementById("referrals").innerHTML = stats[0].referrals;
+	var stats = JSON.parse(stats45319);
+	document.getElementById("sales").innerHTML = stats[0].DealValue;
+	document.getElementById("dealcount").innerHTML = stats[0].DealCount;
+	document.getElementById("referrals").innerHTML = stats[0].ReferralCount;
 	var top = JSON.parse(topclients);
 	var sum = 0;
 	var percent = [];
@@ -50,36 +50,36 @@ function updateData() {
 	var person = JSON.parse(byperson);
 	var office = JSON.parse(byoffice);
 	var persontd =[];
-	for(c = 0; c<person.length; c++) {
-		persontd[c] = document.createElement("div");
-		document.getElementById("ppbarchart").appendChild(persontd[c]);
-		var baratt = document.createAttribute("class");
-		baratt.value = "bar";
-		persontd[c].setAttributeNode(baratt);
-		var inner = document.createElement("div");
-		persontd[c].appendChild(inner);
-		var baratts = [];
-		var barattnames = ["class", "data-original-title", "data-toggle", "data-placement"];
-		for (cc = 0; cc<4; cc++) {
-			baratts[cc] = document.createAttribute(barattnames[cc]);
-		}
-		baratts[0].value = "value tooltips";
-		baratts[1].value = person[c].dealvalue;
-		baratts[2].value = "tooltip";
-		baratts[3].value = "top";
-		for (ccc = 0 ; ccc < 4; ccc++) {
-			inner.setAttributeNode(baratts[ccc]);
-		}
-		inner.appendChild(document.createTextNode(Number(person[c].dealvalue)/3000+"%"));
-		var inner2 = document.createElement("div");
-		var baratt2 = document.createAttribute("class");
-		baratt2.value = "title";
-		inner2.setAttributeNode(baratt2);
-		inner2.appendChild(document.createTextNode(person[c].associateid));
-		persontd[c].appendChild(inner2);
+	// for(c = 0; c<person.length; c++) {
+	// 	persontd[c] = document.createElement("div");
+	// 	document.getElementById("ppbarchart").appendChild(persontd[c]);
+	// 	var baratt = document.createAttribute("class");
+	// 	baratt.value = "bar";
+	// 	persontd[c].setAttributeNode(baratt);
+	// 	var inner = document.createElement("div");
+	// 	persontd[c].appendChild(inner);
+	// 	var baratts = [];
+	// 	var barattnames = ["class", "data-original-title", "data-toggle", "data-placement"];
+	// 	for (cc = 0; cc<4; cc++) {
+	// 		baratts[cc] = document.createAttribute(barattnames[cc]);
+	// 	}
+	// 	baratts[0].value = "value tooltips";
+	// 	baratts[1].value = person[c].dealvalue;
+	// 	baratts[2].value = "tooltip";
+	// 	baratts[3].value = "top";
+	// 	for (ccc = 0 ; ccc < 4; ccc++) {
+	// 		inner.setAttributeNode(baratts[ccc]);
+	// 	}
+	// 	inner.appendChild(document.createTextNode(Number(person[c].dealvalue)/3000+"%"));
+	// 	var inner2 = document.createElement("div");
+	// 	var baratt2 = document.createAttribute("class");
+	// 	baratt2.value = "title";
+	// 	inner2.setAttributeNode(baratt2);
+	// 	inner2.appendChild(document.createTextNode(person[c].associateid));
+	// 	persontd[c].appendChild(inner2);
 
 
-	}
+	// }
 }
 
 

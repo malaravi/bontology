@@ -30,7 +30,7 @@ var Script = function () {
     });
 
 
-    $("#linechart").sparkline([1,5,3,7,9,3,6,4,7,9,7,6,2], {
+    $("#linechart").sparkline([4,5,3,7,9,3,6,4,7,9,7,6,2], {
         type: 'line',
         width: '300',
         height: '75',
@@ -63,7 +63,7 @@ var Script = function () {
 
     //work progress bar
 
-    $("#work-progress1").sparkline([1,2,3,4,5,6,7,8,9,10,11,12], {
+    $("#work-progress1").sparkline([438764,192990,843995,1309096,195177,0,684746,1061398,0,0,0,0], {
         type: 'bar',
         height: '20',
         barWidth: 5,
@@ -73,7 +73,7 @@ var Script = function () {
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
 
-    $("#work-progress2").sparkline([1,2,3,4,5,6,7,8,9,10,11,12], {
+    $("#work-progress2").sparkline([1,2,0,0,0,1,1,1,1,1,2,0], {
         type: 'bar',
         height: '22',
         barWidth: 5,
@@ -83,7 +83,7 @@ var Script = function () {
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
 
-    $("#work-progress3").sparkline([1,2,3,4,5,6,7,8,9,10,11,12], {
+    $("#work-progress3").sparkline([3,1,1,3,1,0,1,2,0,0,0,0], {
         type: 'bar',
         height: '22',
         barWidth: 5,
@@ -93,7 +93,7 @@ var Script = function () {
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
 
-    $("#work-progress4").sparkline([1,2,3,4,5,6,7,8,9,10,11,12], {
+    $("#work-progress4").sparkline([3,1,1,3,1,0,1,2,0,0,0,0], {
         type: 'bar',
         height: '22',
         barWidth: 5,
