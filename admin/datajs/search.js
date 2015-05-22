@@ -10,6 +10,12 @@ $("#submit").click(function(e){
 			var results = msg.results;
 			var left = true;
 			var res = "";
+			if (results.length == 0) {
+				$("#shead").html("No Results");
+			} else {
+				var summary = "Found <b><font color = 'red'>" + results.length+ "</b></font> Deals For <font color = 'red'><b>" + document.getElementById("input").value + "</b></font>";
+				$("#shead").html(summary);
+			}
 			for (var i=0; i<results.length; i++) {
 				var content;
 				if (left) {
