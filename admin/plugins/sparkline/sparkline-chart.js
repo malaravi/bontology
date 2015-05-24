@@ -68,7 +68,7 @@ var Script = function () {
         height: '20',
         barWidth: 5,
         barSpacing: 2,
-        barColor: '#3ac3a9'
+        barColor: '#0093D0'
 //        tooltipFormat: '<span style="display:block; padding:0px 10px 12px 0px;">' +
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
@@ -78,7 +78,7 @@ var Script = function () {
         height: '22',
         barWidth: 5,
         barSpacing: 2,
-        barColor: '#00a2d3'
+        barColor: '#FFc425'
 //        tooltipFormat: '<span style="display:block; padding:0px 10px 12px 0px;">' +
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
@@ -88,7 +88,7 @@ var Script = function () {
         height: '22',
         barWidth: 5,
         barSpacing: 2,
-        barColor: '#e84c3d'
+        barColor: '#ee3124'
 //        tooltipFormat: '<span style="display:block; padding:0px 10px 12px 0px;">' +
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
@@ -98,7 +98,7 @@ var Script = function () {
         height: '22',
         barWidth: 5,
         barSpacing: 2,
-        barColor: '#34495e'
+        barColor: '#ee3124'
 //        tooltipFormat: '<span style="display:block; padding:0px 10px 12px 0px;">' +
 //            '<span style="color: {{color}}">&#9679;</span> {{offset:names}} ({{percent.1}}%)</span>'
     });
