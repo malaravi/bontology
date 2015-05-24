@@ -13,7 +13,7 @@ $("#submit").click(function(e){
 			if (results.length == 0) {
 				$("#shead").html("No Results");
 			} else {
-				var summary = "Found <b><font color = 'red'>" + results.length+ "</b></font> Deals For <font color = 'red'><b>" + document.getElementById("input").value + "</b></font>";
+				var summary = "Found <b><font color = '#0093d0'>" + results.length+ "</b></font> Deals For <font color = '#0093d0'><b>" + document.getElementById("input").value + "</b></font>";
 				$("#shead").html(summary);
 			}
 			for (var i=0; i<results.length; i++) {
